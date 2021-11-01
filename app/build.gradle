@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdk 30
+    compileSdk 28
 
     defaultConfig {
         applicationId "org.eu5.learn_pisio.motiondemo"
         minSdk 19
-        targetSdk 30
+        targetSdk 28
         versionCode 1
         versionName "1.0"
 
@@ -29,6 +29,8 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildToolsVersion '28.0.3'
+    compileSdkVersion 28
 }
 
 dependencies {
